@@ -12,9 +12,9 @@ let jawabanUser = new Array(30).fill(null);
    ============================================================ */
 const dataPeserta = [
     { username: "C30030001-1", password: "B15V2H5", nama: "SUN HAJI", nik: "B0001" },
-    { username: "C30030001-2", password: "B15V2H5", nama: "muhammadrizkiramadhon", nik: "B0002" },
-    { username: "C30030001-3", password: "B15V2H5", nama: "muhammadizzatalfayyadh", nik: "B0003" },
-    { username: "C30030001-4", password: "B15V2H5", nama: "maulanayusuf", nik: "B0004" },
+    { username: "C30030001-2", password: "B15V2H5", nama: "Muhammad Rizki Ramadhon", nik: "B0002" },
+    { username: "C30030001-3", password: "B15V2H5", nama: "Muhammad Izzat Alfayyadh", nik: "B0003" },
+    { username: "C30030001-4", password: "B15V2H5", nama: "maulana Yusuf", nik: "B0004" },
     { username: "C30030001-5", password: "B15V2H5", nama: "Muhammad Erlangga Alamsyah Putra", nik: "B0005" },
     { username: "C30030001-6", password: "B15V2H5", nama: "Muhammad Fahri Ali", nik: "B0006" },
     { username: "C30030001-7", password: "B15V2H5", nama: "Alfitra Suhaimi", nik: "B0007" },
@@ -24,8 +24,8 @@ const dataPeserta = [
     { username: "C30030001-11", password: "B15V2H5", nama: "Muhamad Azril Al Fathri", nik: "B00011" },
     { username: "C30030001-12", password: "B15V2H5", nama: "Julfikar", nik: "B00012" },
     { username: "C30030001-13", password: "B15V2H5", nama: "Hidayatullah", nik: "B00013" },
-    { username: "C30030001-14", password: "B15V2H5", nama: "Risma Febriyana", nik: "B00014" },
-    { username: "C30030001-15", password: "B15V2H5", nama: "Riya Sintia Aulia", nik: "B00015" },
+    { username: "C30030001-14", password: "B15V2H5", nama: "Risma Pebriana", nik: "B00014" },
+    { username: "C30030001-15", password: "B15V2H5", nama: "Ria Sintia Aulia", nik: "B00015" },
     { username: "C30030001-16", password: "B15V2H5", nama: "Irawan", nik: "B00016" },
     { username: "C30030001-17", password: "B15V2H5", nama: "Efan Cahyono", nik: "B00017" },
 ];
