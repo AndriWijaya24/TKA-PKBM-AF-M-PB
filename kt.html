@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Tes - PUSMENDIK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kdp-body">
+
+    <header class="pusmendik-header kdp-header-flex">
+        <div class="header-left">
+            <img src="Tutwuri.png" alt="Logo" class="logo-kemendikbud">
+            <div class="header-text">
+                <div class="main-text">PUSMENDIK</div>
+                <div class="sub-text">APLIKASI ANBK</div>
+            </div>
+        </div>
+        <div class="header-right-info">
+            <span id="display-user">PESERTA TKA - PKBM AL-FURQON</span>
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+    </header>
+
+    <main class="kt-container">
+        <div class="kt-card">
+            <h2 class="kt-title">Konfirmasi Tes</h2>
+
+            <div class="kt-info-group">
+                <label>Nama Tes</label>
+                <div id="kt-nama-tes" class="kt-value">-</div>
+            </div>
+
+            <div class="kt-info-group">
+                <label>Status Tes</label>
+                <div class="kt-value">Tes Baru</div>
+            </div>
+
+            <div class="kt-info-group">
+                <label>Waktu Tes</label>
+                <div id="kt-waktu-tes" class="kt-value">-</div>
+            </div>
+
+            <div class="kt-info-group">
+                <label>Alokasi Waktu Tes</label>
+                <div id="kt-alokasi" class="kt-value">30 Menit</div>
+            </div>
+
+            <button class="btn-mulai-tes" onclick="mulaiUjian()">Mulai</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

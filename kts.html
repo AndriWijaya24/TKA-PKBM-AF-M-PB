@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Tes - PUSMENDIK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kts-body">
+
+    <header class="pusmendik-header kdp-header-flex">
+        <div class="header-left">
+            <img src="Tutwuri.png" alt="Logo" class="logo-kemendikbud">
+            <div class="header-text">
+                <div class="main-text">PUSMENDIK</div>
+                <div class="sub-text">APLIKASI ANBK</div>
+            </div>
+        </div>
+        <div class="header-right-info">
+            <span>PESERTA TKA - PKBM AL-FURQON</span>
+            <i class="fas fa-graduation-cap" style="margin-left: 10px;"></i>
+        </div>
+    </header>
+
+    <main class="kts-main-container">
+        <div class="kts-confirm-card">
+            <h2 class="kts-title">Konfirmasi Tes</h2>
+            <p class="kts-message">
+                Terimakasih telah berpartisipasi dalam tes ini.<br>
+                Silahkan tekan tombol <span class="text-red-bold">SELESAI TES</span> untuk mengakhiri tes. 
+                Atau tekan tombol <span class="text-green-bold">KEMBALI</span> untuk kembali ke halaman tes.
+            </p>
+            
+            <div id="hasil-nilai"></div>
+
+            <div class="kts-button-group">
+                <button class="btn-kts-selesai" onclick="finishTes()">SELESAI TES</button>
+                <button class="btn-kts-kembali" onclick="goBack()">KEMBALI</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

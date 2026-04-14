@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Data Peserta - PUSMENDIK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kdp-body">
+
+    <header class="pusmendik-header kdp-header-flex">
+        <div class="header-left">
+            <img src="Tutwuri.png" alt="Logo" class="logo-kemendikbud">
+            <div class="header-text">
+                <div class="main-text">PUSMENDIK</div>
+                <div class="sub-text">APLIKASI ANBK</div>
+            </div>
+        </div>
+        <div class="header-right-info">
+            <span>PESERTA TKA - PKBM AL-FURQON</span>
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+    </header>
+
+    <main class="kdp-main-container">
+        <div class="kdp-token-box">
+            <div class="token-content">
+                Token : <span class="token-highlight">EVMJHL</span>
+            </div>
+            <button class="btn-refresh" onclick="location.reload()">Refresh</button>
+        </div>
+
+        <div class="kdp-auth-card">
+            <h2 class="kdp-title">Konfirmasi data Peserta</h2>
+
+            <form id="formKDP">
+                <div class="kdp-form-group">
+                    <label>Kode NIK</label>
+                    <input type="text" id="nik" placeholder="Ketikkan Kode NIK">
+                </div>
+
+                <div class="kdp-form-group">
+                    <label>Nama Peserta</label>
+                    <input type="text" placeholder="Ketikkan Nama Peserta">
+                </div>
+
+                <div class="kdp-form-group">
+                    <label>Jenis Kelamin</label>
+                    <select class="kdp-select">
+                        <option value="" disabled selected>Pilih Jenis Kelamin</option>
+                        <option value="L">Laki-Laki</option>
+                        <option value="P">Perempuan</option>
+                    </select>
+                </div>
+
+                <div class="kdp-form-group">
+                    <label>Mata Ujian</label>
+                    <input type="text" id="input-mapel" readonly>
+                </div>
+
+                <div class="kdp-form-group">
+                    <label>Nama Peserta</label>
+                    <input type="text" placeholder="Ketikkan Nama Peserta">
+                </div>
+
+                <div class="kdp-form-group">
+    <label>Tanggal Lahir</label>
+    <div class="kdp-date-row">
+        <select id="hari">
+            <option value="" disabled selected>Hari</option>
+        </select>
+        
+        <select id="bulan">
+            <option value="" disabled selected>Bulan</option>
+        </select>
+        
+        <select id="tahun">
+            <option value="" disabled selected>Tahun</option>
+        </select>
+    </div>
+</div>
+
+                <div class="kdp-form-group">
+                    <label>Token</label>
+                    <input type="text" placeholder="Ketikkan token di sini">
+                </div>
+
+                <button type="button" class="btn-submit-kdp" onclick="submitKDP()">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <div class="kdp-footer-icon">
+        <i class="fas fa-check-double"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

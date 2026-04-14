@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Simulasi TKA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+    <header class="pusmendik-header">
+        <img src="Tutwuri.png" class="logo-kemendikbud" alt="Logo">
+        <div class="header-text">
+            <div class="main-text">PUSMENDIK</div>
+            <div class="sub-text">APLIKASI ANBK</div>
+        </div>
+    </header>
+
+    <div class="auth-container">
+        <div class="login-card">
+            <div class="login-content">
+                <h3>Selamat Datang</h3>
+                <p>Silakan login dengan menggunakan username dan password yang anda miliki</p>
+        
+                <div class="input-group">
+                    <i class="fas fa-user-circle"></i>
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                    <i class="fas fa-eye toggle-password"></i>
+                </div>
+
+                <!--<button class="btn-login" onclick="window.location.href='kdp.html'">Login</button>-->
+                <!--<button class="btn-login" onclick="goToKDP()">Login</button>-->
+                <button class="btn-login" onclick="validasiLogin()">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

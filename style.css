@@ -1,0 +1,608 @@
+/* ================= RESET & BASE ================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(#2e74c7, #3b82f6);
+    height: 100vh;
+    background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    overflow: hidden; /* Mencegah scrollbar */
+}
+
+/* Khusus untuk halaman login agar backgroundnya polos abu-abu muda sesuai foto */
+.login-body {
+    background: #f0f4f8 !important;
+    background-image: none !important;
+}
+
+/* ================= HEADER (Biru Tua) ================= */
+.pusmendik-header {
+    background-color: #3c4b64; /* Warna biru gelap khas ANBK */
+    color: white;
+    padding: 10px 25px; /* Memberi ruang agar tidak terpotong */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    box-sizing: border-box;
+}
+
+.logo-kemendikbud {
+    height: 45px; /* Ukuran proporsional agar img tidak terpotong */
+    width: auto;
+    object-fit: contain;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+}
+
+.sub-text {
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* ================= CONTAINER UTAMA ================= */
+.landing-container, .auth-container {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================= CARD INDEX (Pilihan Jenjang) ================= */
+.landing-card {
+    background: #fff;
+    padding: 35px;
+    width: 380px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.top-icon {
+    width: 70px;
+    height: 70px;
+    background: #2e74c7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto 15px;
+}
+
+.landing-card label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.landing-card select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    outline: none;
+}
+
+.btn-start {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #2e74c7, #1e60a3);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ================= CARD LOGIN (Sesuai Screenshot 38) ================= */
+.login-card {
+    background: #fff;
+    width: 450px;
+    padding: 45px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.login-content h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.login-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 35px;
+    line-height: 1.4;
+}
+
+/* Input Group: Hanya Garis Bawah */
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+    border-bottom: 1.5px solid #eee;
+    display: flex;
+    align-items: center;
+    transition: border-color 0.3s;
+}
+
+.input-group:focus-within {
+    border-bottom-color: #007bff;
+}
+
+.input-group i {
+    color: #555;
+    font-size: 1.2rem;
+    padding-right: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    border: none !important;
+    padding: 12px 0;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    color: #333;
+}
+
+/* Tombol Login Biru Lonjong */
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px; /* Membuat tombol sangat lonjong (pill-shaped) */
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background: #0056b3;
+}
+
+.toggle-password {
+    cursor: pointer;
+    color: #999 !important;
+    font-size: 0.9rem !important;
+    padding-left: 10px;
+}
+
+/* ================= STYLE KDP (KONFIRMASI DATA) ================= */
+
+.kdp-body {
+    background-color: #f7fafc !important;
+    background-image: none !important;
+}
+
+.kdp-header-flex {
+    justify-content: space-between !important;
+    padding: 0 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-right-info {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap; /* Mencegah teks nama peserta turun ke bawah (wrap) */
+}
+
+.header-right-info i {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #ffffff;
+}
+
+.kdp-main-container {
+    display: flex;
+    padding: 30px;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+/* Box Token Kiri */
+.kdp-token-box {
+    background: white;
+    flex: 1;
+    padding: 20px 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.token-highlight {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.btn-refresh {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Card Konfirmasi Kanan */
+.kdp-auth-card {
+    background: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.kdp-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.kdp-form-group {
+    margin-bottom: 18px;
+}
+
+.kdp-form-group label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.kdp-form-group input, .kdp-select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+    outline: none;
+    font-size: 0.95rem;
+    background: transparent;
+}
+
+.kdp-form-group input:focus {
+    border-color: #007bff;
+}
+
+.kdp-date-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.kdp-date-row select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-submit-kdp {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.kdp-footer-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #dc3545;
+    font-size: 1.2rem;
+}
+
+/* ================= STYLE KONFIRMASI TES (kt.html) ================= */
+
+.kt-container {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kt-card {
+    background: white;
+    width: 450px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.kt-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.kt-info-group {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.kt-info-group label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.kt-value {
+    font-size: 1.05rem;
+    color: #111;
+    font-weight: 400;
+}
+
+.btn-mulai-tes {
+    width: 100%;
+    padding: 14px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Lonjong sesuai gambar */
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn-mulai-tes:hover {
+    background: #0056b3;
+}
+
+/* ================= CSS FIX UNTUK HALAMAN SOAL ================= */
+.exam-container {
+    padding: 20px;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    background: #f0f4f8;
+}
+
+.exam-card {
+    background: white;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.exam-top-bar {
+    padding: 10px 20px;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exam-status-pills { display: flex; gap: 10px; align-items: center; }
+
+.pill-blue { background: #007bff; color: white; border: none; padding: 6px 15px; border-radius: 20px; cursor: pointer; font-size: 12px; }
+.pill-dark-blue { background: #3c4b64; color: white; border: none; padding: 6px 15px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+.pill-timer { border: 1px solid #ccc; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 14px; }
+
+.exam-content-area {
+    flex: 1;
+    display: flex;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+.text-stimulus { flex: 1; padding-right: 25px; border-right: 1px solid #eee; text-align: justify; line-height: 1.6; }
+.question-options { flex: 1; padding-left: 25px; }
+
+.option-item { display: flex; align-items: center; margin-bottom: 12px; padding: 8px; border-radius: 4px; cursor: pointer; transition: 0.2s; }
+.option-item:hover { background: #f0f7ff; }
+.option-item input { margin-right: 12px; transform: scale(1.2); cursor: pointer; }
+
+.exam-footer {
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-nav { padding: 10px 20px; border: none; border-radius: 20px; color: white; font-weight: bold; cursor: pointer; font-size: 13px; }
+.btn-prev { background: #dc3545; }
+.btn-next { background: #007bff; }
+.ragu-checkbox { background: #ffc107; padding: 10px 20px; border-radius: 4px; font-weight: bold; display: flex; align-items: center; gap: 8px; font-size: 13px; }
+
+/* MODAL FIX */
+.exam-modal { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+.modal-content { background: white; margin: 10% auto; width: 400px; border-radius: 8px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.3); }
+.modal-header { background: #3c4b64; color: white; padding: 12px 15px; display: flex; justify-content: space-between; font-weight: bold; }
+.modal-body { padding: 20px; }
+.nomor-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.nomor-item { padding: 10px; border: 1px solid #ccc; text-align: center; cursor: pointer; font-weight: bold; font-size: 12px; }
+.nomor-item.sedang { background: #ffc107; border-color: #ffc107; }
+.nomor-item.sudah { background: #007bff; color: white; border-color: #007bff; }
+.close-modal { cursor: pointer; font-size: 20px; }
+.mapel-label-bottom { position: absolute; bottom: 85px; right: 25px; font-style: italic; color: #888; font-size: 12px; }
+
+/* ================= CSS UNTUK HALAMAN KTS.HTML ================= */
+.kts-body {
+    margin: 0;
+    background-color: #f0f4f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.kts-main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.kts-confirm-card {
+    background: white;
+    width: 100%;
+    max-width: 480px;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.kts-title {
+    margin-top: 0;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.kts-message {
+    font-size: 14.5px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 35px;
+}
+
+.text-red-bold {
+    color: #dc3545;
+    font-weight: 700;
+    background: #f8d7da;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.text-green-bold {
+    color: #28a745;
+    font-weight: 700;
+    background: #d4edda;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.kts-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Tombol Selesai (Merah) */
+.btn-kts-selesai {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Tombol Kembali (Hijau) */
+.btn-kts-kembali {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-kts-selesai:hover { background-color: #c82333; }
+.btn-kts-kembali:hover { background-color: #218838; }
+
+/* ================= STYLE TAMBAHAN: HASIL SKOR ================= */
+.skor-box {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.skor-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ddd;
+    font-size: 14px;
+}
+
+.skor-row:last-child {
+    border-bottom: none;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-size: 18px;
+    border-top: 2px solid #eee;
+}
+
+.nilai-total {
+    color: #007bff;
+    font-weight: 800;
+}
+
+.label-skor {
+    font-weight: 600;
+    color: #555;
+}

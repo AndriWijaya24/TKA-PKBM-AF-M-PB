@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi TKA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="pusmendik-header">
+    <img src="Tutwuri.png" class="logo-kemendikbud">
+    <div class="header-text">
+        <div class="main-text">PUSMENDIK</div>
+        <div class="sub-text">APLIKASI ANBK - Simulasi TKA</div>
+    </div>
+</header>
+
+<div class="landing-container">
+    <div class="landing-card">
+
+        <div class="top-icon">🎓</div>
+
+        <h2>Simulasi TKA</h2>
+        <p>Pilih jenjang dan mata pelajaran untuk memulai simulasi</p>
+
+        <label>Jenjang Pendidikan:</label>
+        <select id="select-jenjang">
+            <option value="">-- Pilih --</option>
+            <!--<option value="sma">SMA/SMK</option>-->
+            <option value="smp">SMP</option>
+        </select>
+
+        <label>Jenis Mata Pelajaran:</label>
+        <select>
+            <option>Mata Pelajaran Wajib</option>
+        </select>
+
+        <label>Mata Pelajaran:</label>
+        <select id="select-mapel">
+            <option value="">-- Pilih Mapel --</option>
+            <option value="Matematika">Matematika</option>
+            <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+        </select>
+
+        <button class="btn-start" onclick="goLogin()">▶ Mulai Simulasi</button>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

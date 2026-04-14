@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Simulasi TKA - PUSMENDIK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kdp-body">
+
+    <header class="pusmendik-header kdp-header-flex">
+        <div class="header-left">
+            <img src="Tutwuri.png" alt="Logo" class="logo-kemendikbud">
+            <div class="header-text">
+                <div class="main-text">PUSMENDIK</div>
+                <div class="sub-text">APLIKASI ANBK</div>
+            </div>
+        </div>
+        <div class="header-right-info">
+            <span id="display-user">PESERTA TKA - PKBM AL-FURQON</span>
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+    </header>
+
+    <main class="exam-container">
+        <div class="exam-card">
+            <div class="exam-top-bar">
+                <div class="soal-info">
+                    <span class="soal-number">Soal nomor <strong id="current-number">1</strong></span>
+                </div>
+                <div class="exam-status-pills">
+                    <button class="pill-blue" onclick="bukaInfo()">INFORMASI SOAL</button>
+                    <div class="pill-timer">Sisa Waktu : <span id="timer">00:15:00</span></div>
+                    <button class="pill-dark-blue" onclick="bukaDaftarSoal()">Daftar Soal <i class="fas fa-th"></i></button>
+                </div>
+            </div>
+
+            <div class="exam-content-area">
+                <div class="text-stimulus" id="soal-teks">
+                    </div>
+                <div class="question-options">
+                    <p id="soal-pertanyaan" style="font-weight: 700; margin-bottom: 20px;">Memuat pertanyaan...</p>
+                    <div id="options-container">
+                        </div>
+                </div>
+            </div>
+
+            <div class="exam-footer">
+                <button class="btn-nav btn-prev" onclick="prevSoal()">
+                    <i class="fas fa-chevron-left"></i> Soal sebelumnya
+                </button>
+                <div class="ragu-checkbox">
+                    <input type="checkbox" id="ragu">
+                    <label for="ragu">Ragu-ragu</label>
+                </div>
+                <button class="btn-nav btn-next" onclick="nextSoal()">
+                    Soal berikutnya <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="mapel-label-bottom" id="bottom-mapel">Bahasa Indonesia</div>
+        </div>
+    </main>
+
+    <div id="modal-daftar" class="exam-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span>Daftar Soal</span>
+                <span class="close-modal" onclick="tutupModal('modal-daftar')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="grid-nomor" class="nomor-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-info" class="exam-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span>Informasi Soal</span>
+                <span class="close-modal" onclick="tutupModal('modal-info')">&times;</span>
+            </div>
+            <div class="modal-body" id="info-body" style="line-height: 1.8;"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
