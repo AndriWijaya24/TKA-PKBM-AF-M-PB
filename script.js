@@ -90,24 +90,24 @@ const databaseSoal = {
         { teks: "Bayangan titik (1,2) oleh translasi (3,4) adalah...", tanya: "Penjumlahan vektor.", opsi: ["A. (4,6)", "B. (2,2)", "C. (4,4)", "D. (6,4)", "E. (3,3)"], kunci: 0 }
     ],
     "Bahasa Indonesia": [
-        { teks: "Banjir melanda Jakarta akibat curah hujan yang tinggi dan saluran air yang tersumbat.", tanya: "Apa penyebab utama banjir menurut teks?", opsi: ["A.Kurang pohon", "B. Sampah plastik", "C.  Hujan & saluran air", "D. Laut pasang", "E. Gempa bumi"], kunci: 0 },
-        { teks: "Andi adalah anak yang sangat ringan tangan di sekolahnya.", tanya: "Makna ungkapan 'ringan tangan' adalah...", opsi: ["A. Suka mukul", "B. Suka membantu", "C. Cepat mencuri", "D. Malas bekerja", "E. Suka jajan"], kunci: 0 },
-        { teks: "Pemerintah sedang menggalakkan program literasi digital di pelosok desa.", tanya: "Sinonim kata 'menggalakkan' adalah...", opsi: ["A. Menghentikan", "B. Mendorong", "C. Membeli", "D. Melihat", "E. Menunda"], kunci: 0 },
-        { teks: "Ibu membeli buah, sayur, dan ikan di pasar tradisional.", tanya: "Penulisan tanda baca koma di atas sudah benar?", opsi: ["A. Koma hanya satu", "B. Tidak, harus titik", "C. Tidak perlu koma", "D. Ya, sudah benar", "E. Pakai titik dua"], kunci: 0 },
+        { teks: "Banjir melanda Jakarta akibat curah hujan yang tinggi dan saluran air yang tersumbat.", tanya: "Apa penyebab utama banjir menurut teks?", opsi: ["A.Kurang pohon", "B. Sampah plastik", "C.  Hujan & saluran air", "D. Laut pasang", "E. Gempa bumi"], kunci: 2 },
+        { teks: "Andi adalah anak yang sangat ringan tangan di sekolahnya.", tanya: "Makna ungkapan 'ringan tangan' adalah...", opsi: ["A. Suka mukul", "B. Suka membantu", "C. Cepat mencuri", "D. Malas bekerja", "E. Suka jajan"], kunci: 1 },
+        { teks: "Pemerintah sedang menggalakkan program literasi digital di pelosok desa.", tanya: "Sinonim kata 'menggalakkan' adalah...", opsi: ["A. Menghentikan", "B. Mendorong", "C. Membeli", "D. Melihat", "E. Menunda"], kunci: 4 },
+        { teks: "Ibu membeli buah, sayur, dan ikan di pasar tradisional.", tanya: "Penulisan tanda baca koma di atas sudah benar?", opsi: ["A. Koma hanya satu", "B. Tidak, harus titik", "C. Tidak perlu koma", "D. Ya, sudah benar", "E. Pakai titik dua"], kunci: 2 },
         { teks: "Kalimat efektif adalah kalimat yang mudah dipahami pembaca.", tanya: "Manakah ciri kalimat efektif?", opsi: ["A. Sangat Panjang", "B. Bertele-tele", "C. Logis & hemat kata", "D. Banyak majas", "E. Sulit dibaca"], kunci: 0 },
         { teks: "Siswa itu rajin belajar agar lulus ujian dengan nilai memuaskan.", tanya: "Konjungsi tujuan dalam kalimat tersebut adalah...", opsi: ["A. Itu", "B. agar", "C. belajar", "D. lulus", "E. rajin"], kunci: 0 },
         { teks: "Buku itu dibaca oleh kakak kemarin pagi.", tanya: "Ubah menjadi kalimat aktif!", opsi: ["A. Kakak dibaca buku", "B. Buku membaca kakak", "C. Kakak membaca buku", "D. Kemarin kakak buku", "E. Pagi kakak baca"], kunci: 0 },
         { teks: "Laporan hasil observasi harus bersifat objektif.", tanya: "Apa arti 'objektif'?", opsi: ["A. Mengikuti opini", "B. Menurut perasaan", "C. Sesuai kenyataan", "D. Bersifat rahasia", "E. Indah bahasanya"], kunci: 0 },
         { teks: "Pantun terdiri dari sampiran dan isi.", tanya: "Bagian sampiran ada di baris nomor...", opsi: ["A. 4 saja", "B. 3 dan 4", "C. 1 saja", "D. 1 dan 2", "E. Semua baris"], kunci: 0 },
-        { teks: "Majas personifikasi memberikan sifat manusia pada benda mati.", tanya: "Contoh majas personifikasi adalah...", opsi: ["A. Ibu makan nasi", "B. Wajahnya cantik", "C. Dia lari cepat", "D. Rumah itu besar", "E. Nyiur melambai"], kunci: 0 },
+        { teks: "Majas personifikasi memberikan sifat manusia pada benda mati.", tanya: "Contoh majas personifikasi adalah...", opsi: ["A. Ibu makan nasi", "B. Wajahnya cantik", "C. Dia lari cepat", "D. Rumah itu besar", "E. Nyiur melambai"], kunci: 4 },
         { teks: "Penulisan judul yang benar di bawah ini adalah...", opsi: ["A. Laskar Pelangi", "B. laskar pelangi", "C. LASKAR pelangi", "D. laskar PELANGI", "E. Laskar pelangi"], kunci: 0 },
-        { teks: "Teks prosedur berisi langkah-langkah melakukan sesuatu.", tanya: "Ciri khas teks prosedur adalah...", opsi: ["A. Cerita masa lalu", "B. Banyak dialog", "C. Kata perintah", "D. Opini penulis", "E. Sajak berirama"], kunci: 0 },
+        { teks: "Teks prosedur berisi langkah-langkah melakukan sesuatu.", tanya: "Ciri khas teks prosedur adalah...", opsi: ["A. Cerita masa lalu", "B. Banyak dialog", "C. Kata perintah", "D. Opini penulis", "E. Sajak berirama"], kunci: 1 },
         { teks: "Antonim dari kata 'Prolog' adalah...", opsi: ["A. Epilog", "B. Dialog", "C. Monolog", "D. Katalog", "E. Logika"], kunci: 0 },
         { teks: "Kalimat tanya harus diakhiri dengan tanda...", opsi: ["A. Tanya (?)", "B. Seru (!)", "C. Titik (.)", "D. Koma (,)", "E. Titik dua (:)"], kunci: 0 },
         { teks: "Surat resmi biasanya menggunakan bahasa...", opsi: ["A. Rahasia", "B. Gaul", "C. Daerah", "D. Isyarat", "E. Baku"], kunci: 0 },
         { teks: "Paragraf induktif adalah paragraf yang kalimat utamanya di...", opsi: ["A. Judul", "B. Awal", "C. Tengah", "D. Awal & Akhir", "E. Akhir"], kunci: 0 },
         { teks: "Kata dasar dari 'Mempertanggungjawabkan' adalah...", opsi: ["A. Tanggung jawab", "B. Tanggung", "C. Jawab", "D. Pertanggung", "E. Jawabkan"], kunci: 0 },
-        { teks: "Fungsi dari teras berita (lead) adalah...", opsi: ["A. Inti informasi", "B. Penutup berita", "C. Nama penulis", "D. Tanggal berita", "E. Iklan"], kunci: 0 },
+        { teks: "Fungsi dari teras berita (lead) adalah...", opsi: ["A. Inti informasi", "B. Penutup berita", "C. Nama penulis", "D. Tanggal berita", "E. Iklan"], kunci: 1 },
         { teks: "Puisi lama yang berasal dari Arab dengan rima a-a-a-a adalah...", opsi: ["A. Pantun", "B. Gurindam", "C. Syair", "D. Karmina", "E. Soneta"], kunci: 0 },
         { teks: "Ideologi adalah kumpulan ide atau gagasan.", tanya: "Serapan kata 'ideologi' berasal dari...", opsi: ["A. Inggris", "B. Belanda", "C. Yunani", "D. Arab", "E. Sanskerta"], kunci: 2 },
         { teks: "Si Kancil mencuri timun milik Pak Tani.", tanya: "Tokoh utama cerita tersebut adalah...", opsi: ["A. Timun", "B. Pak Tani", "C. Kancil", "D. Kancil & Tani", "E. Penulis"], kunci: 0 },
@@ -115,11 +115,11 @@ const databaseSoal = {
         { teks: "Sajak dalam satu bait pantun biasanya berirama...", opsi: ["A. a-b-a-b", "B. a-a-a-a", "C. a-a-b-b", "D. b-b-a-a", "E. bebas"], kunci: 0 },
         { teks: "Tujuan teks eksposisi adalah...", opsi: ["A. Menjelaskan", "B. Menghibur", "C. Menceritakan", "D. Merayu", "E. Menghina"], kunci: 0 },
         { teks: "Karya tulis yang menyajikan argumen pribadi disebut...", opsi: ["A. Skripsi", "B. Kamus", "C. Ensiklopedia", "D. Bibliografi", "E. Esai"], kunci: 0 },
-        { teks: "Dina tidak masuk sekolah ... sakit.", tanya: "Kata hubung sebab yang tepat adalah...", opsi: ["A. karena", "B. meskipun", "C. dan", "D. tetapi", "E. kemudian"], kunci: 0 },
-        { teks: "Penerbitan buku itu dilakukan setahun sekali.", tanya: "Makna kata 'setahun sekali' adalah...", opsi: ["A. Harian", "B. Bulanan", "C. Tahunan", "D. Mingguan", "E. Abadi"], kunci: 0 },
+        { teks: "Dina tidak masuk sekolah ... sakit.", tanya: "Kata hubung sebab yang tepat adalah...", opsi: ["A. karena", "B. meskipun", "C. dan", "D. tetapi", "E. kemudian"], kunci: 1 },
+        { teks: "Penerbitan buku itu dilakukan setahun sekali.", tanya: "Makna kata 'setahun sekali' adalah...", opsi: ["A. Harian", "B. Bulanan", "C. Tahunan", "D. Mingguan", "E. Abadi"], kunci: 1 },
         { teks: "Simpulan adalah hasil akhir dari suatu pembicaraan.", tanya: "Simpulan harus mencakup...", opsi: ["A. Seluruh isi", "B. Nama penulis", "C. Daftar pustaka", "D. Kritik saja", "E. Kata pengantar"], kunci: 0 },
         { teks: "Majas hiperbola adalah majas yang...", opsi: ["A. Menyindir halus", "B. Mengecilkan", "C. Melebih-lebihkan", "D. Menyamakan", "E. Bertanya"], kunci: 0 },
-        { teks: "Ayah membaca koran di teras rumah.", tanya: "Subjek kalimat tersebut adalah...", opsi: ["A. Ayah", "B. Membaca", "C. Koran", "D. Teras", "E. Rumah"], kunci: 0 }
+        { teks: "Ayah membaca koran di teras rumah.", tanya: "Subjek kalimat tersebut adalah...", opsi: ["A. Ayah", "B. Membaca", "C. Koran", "D. Teras", "E. Rumah"], kunci: 3 }
     ]
 };
 
