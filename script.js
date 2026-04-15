@@ -11,24 +11,24 @@ let jawabanUser = new Array(30).fill(null);
     DATABASE AKUN PESERTA (Tambahkan sesuai kebutuhan)
    ============================================================ */
 const dataPeserta = [
-    { username: "C30030005-1", password: "B11V2H5", nama: "SUN HAJI", nik: "B0001" },
-    { username: "C30030005-2", password: "B11V2H5", nama: "Muhammad Rizki Ramadhon", nik: "B0002" },
-    { username: "C30030005-3", password: "B11V2H5", nama: "Muhammad Izzat Alfayyadh", nik: "B0003" },
-    { username: "C30030005-4", password: "B11V2H5", nama: "maulana Yusuf", nik: "B0004" },
-    { username: "C30030005-5", password: "B11V2H5", nama: "Muhammad Erlangga Alamsyah Putra", nik: "B0005" },
-    { username: "C30030005-6", password: "B11V2H5", nama: "Muhammad Fahri Ali", nik: "B0006" },
-    { username: "C30030005-7", password: "B11V2H5", nama: "Alfitra Suhaimi", nik: "B0007" },
-    { username: "C30030005-8", password: "B11V2H5", nama: "Jumanah", nik: "B0008" },
-    { username: "C30030005-9", password: "B11V2H5", nama: "Siti Fitriyah", nik: "B0009" },
-    { username: "C30030005-10", password: "B11V2H5", nama: "Asmi", nik: "B00010" },
-    { username: "C30030005-11", password: "B11V2H5", nama: "Muhamad Azril Al Fathri", nik: "B00011" },
-    { username: "C30030005-12", password: "B11V2H5", nama: "Julfikar", nik: "B00012" },
-    { username: "C30030005-13", password: "B11V2H5", nama: "Hidayatullah", nik: "B00013" },
-    { username: "C30030005-14", password: "B11V2H5", nama: "Risma Pebriana", nik: "B00014" },
-    { username: "C30030005-15", password: "B11V2H5", nama: "Ria Sintia Aulia", nik: "B00015" },
-    { username: "C30030005-16", password: "B11V2H5", nama: "Irawan", nik: "B00016" },
-    { username: "C30030005-17", password: "B11V2H5", nama: "Efan Cahyono", nik: "B00017" },
-    { username: "C30030005-18", password: "B11V2H5", nama: "Muhamad Adli Zaidan", nik: "B00018" }
+    { username: "C30030005-1", password: "B15V2H5", nama: "SUN HAJI", nik: "B0001" },
+    { username: "C30030005-2", password: "B15V2H5", nama: "Muhammad Rizki Ramadhon", nik: "B0002" },
+    { username: "C30030005-3", password: "B15V2H5", nama: "Muhammad Izzat Alfayyadh", nik: "B0003" },
+    { username: "C30030005-4", password: "B15V2H5", nama: "maulana Yusuf", nik: "B0004" },
+    { username: "C30030005-5", password: "B15V2H5", nama: "Muhammad Erlangga Alamsyah Putra", nik: "B0005" },
+    { username: "C30030005-6", password: "B15V2H5", nama: "Muhammad Fahri Ali", nik: "B0006" },
+    { username: "C30030005-7", password: "B15V2H5", nama: "Alfitra Suhaimi", nik: "B0007" },
+    { username: "C30030005-8", password: "B15V2H5", nama: "Jumanah", nik: "B0008" },
+    { username: "C30030005-9", password: "B15V2H5", nama: "Siti Fitriyah", nik: "B0009" },
+    { username: "C30030005-10", password: "B15V2H5", nama: "Asmi", nik: "B00010" },
+    { username: "C30030005-11", password: "B15V2H5", nama: "Muhamad Azril Al Fathri", nik: "B00011" },
+    { username: "C30030005-12", password: "B15V2H5", nama: "Julfikar", nik: "B00012" },
+    { username: "C30030005-13", password: "B15V2H5", nama: "Hidayatullah", nik: "B00013" },
+    { username: "C30030005-14", password: "B15V2H5", nama: "Risma Pebriana", nik: "B00014" },
+    { username: "C30030005-15", password: "B15V2H5", nama: "Ria Sintia Aulia", nik: "B00015" },
+    { username: "C30030005-16", password: "B15V2H5", nama: "Irawan", nik: "B00016" },
+    { username: "C30030005-17", password: "B15V2H5", nama: "Efan Cahyono", nik: "B00017" },
+    { username: "C30030005-18", password: "B15V2H5", nama: "Muhamad Adli Zaidan", nik: "B00018" }
 ];
 
 /* ============================================================
