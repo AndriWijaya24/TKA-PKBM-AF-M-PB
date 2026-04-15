@@ -28,6 +28,7 @@ const dataPeserta = [
     { username: "C30030001-15", password: "B15V2H5", nama: "Ria Sintia Aulia", nik: "B00015" },
     { username: "C30030001-16", password: "B15V2H5", nama: "Irawan", nik: "B00016" },
     { username: "C30030001-17", password: "B15V2H5", nama: "Efan Cahyono", nik: "B00017" },
+    { username: "C30030001-18", password: "B15V2H5", nama: "Muhamad Adli Zaidan", nik: "B00018" }
 ];
 
 /* ============================================================
