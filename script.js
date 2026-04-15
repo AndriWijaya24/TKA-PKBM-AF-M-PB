@@ -90,7 +90,7 @@ const databaseSoal = {
         { teks: "Bayangan titik (1,2) oleh translasi (3,4) adalah...", tanya: "Penjumlahan vektor.", opsi: ["A. (4,6)", "B. (2,2)", "C. (4,4)", "D. (6,4)", "E. (3,3)"], kunci: 0 }
     ],
     "Bahasa Indonesia": [
-        { teks: "Banjir melanda Jakarta akibat curah hujan yang tinggi dan saluran air yang tersumbat.", tanya: "Apa penyebab utama banjir menurut teks?", opsi: ["A. Hujan & saluran air", "B. Sampah plastik", "C. Kurangnya pohon", "D. Laut pasang", "E. Gempa bumi"], kunci: 0 },
+        { teks: "Banjir melanda Jakarta akibat curah hujan yang tinggi dan saluran air yang tersumbat.", tanya: "Apa penyebab utama banjir menurut teks?", opsi: ["A.Kurang pohon", "B. Sampah plastik", "C.  Hujan & saluran air", "D. Laut pasang", "E. Gempa bumi"], kunci: 0 },
         { teks: "Andi adalah anak yang sangat ringan tangan di sekolahnya.", tanya: "Makna ungkapan 'ringan tangan' adalah...", opsi: ["A. Suka mukul", "B. Suka membantu", "C. Cepat mencuri", "D. Malas bekerja", "E. Suka jajan"], kunci: 0 },
         { teks: "Pemerintah sedang menggalakkan program literasi digital di pelosok desa.", tanya: "Sinonim kata 'menggalakkan' adalah...", opsi: ["A. Menghentikan", "B. Mendorong", "C. Membeli", "D. Melihat", "E. Menunda"], kunci: 0 },
         { teks: "Ibu membeli buah, sayur, dan ikan di pasar tradisional.", tanya: "Penulisan tanda baca koma di atas sudah benar?", opsi: ["A. Koma hanya satu", "B. Tidak, harus titik", "C. Tidak perlu koma", "D. Ya, sudah benar", "E. Pakai titik dua"], kunci: 0 },
